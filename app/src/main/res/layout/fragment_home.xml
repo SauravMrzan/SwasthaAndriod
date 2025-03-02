@@ -12,7 +12,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Expense Tracker"
+        android:text="Calorie Tracker"
         android:textSize="35dp"
         android:textStyle="bold"
         android:textColor="#A63015"
@@ -35,7 +35,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Total Calories Taken"
+            android:text="Calories Remaining"
             android:textAllCaps="true"
             android:textStyle="bold"
             android:textSize="18sp" />
@@ -111,7 +111,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Remaining Calories"
+                    android:text="Calories Taken"
                     android:textSize="16sp"
                     android:textAllCaps="true" />
             </LinearLayout>

@@ -21,7 +21,7 @@ class TransactionRepositoryImpl: TransactionRepository {
         reference.child(id).setValue(transactionModel)
             .addOnCompleteListener {
                 if (it.isSuccessful) {
-                    callback(true, "Product Added succesfully")
+                    callback(true, "Calorie Added successfully")
                 } else {
                     callback(false, "${it.exception?.message}")
                 }
@@ -36,7 +36,7 @@ class TransactionRepositoryImpl: TransactionRepository {
         reference.child(transactionId).updateChildren(data)
             .addOnCompleteListener {
                 if (it.isSuccessful) {
-                    callback(true, "Product Updated succesfully")
+                    callback(true, "Calories Updated succesfully")
                 } else {
                     callback(false, "${it.exception?.message}")
                 }
@@ -47,7 +47,7 @@ class TransactionRepositoryImpl: TransactionRepository {
         reference.child(transactionId).removeValue()
             .addOnCompleteListener {
                 if (it.isSuccessful) {
-                    callback(true, "Product deleted succesfully")
+                    callback(true, "Calorie deleted successfully")
                 } else {
                     callback(false, "${it.exception?.message}")
                 }
