@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_pink"
+    android:background="#83EF98"
     tools:context=".ui.activity.EditProfileActivity">
 
     <!-- First Name Input -->
@@ -19,7 +19,7 @@
         android:layout_marginTop="156dp"
         android:text="Edit Profile"
         android:textAlignment="center"
-        android:textColor="@color/dark_purple"
+        android:textColor="#A63015"
         android:textSize="35dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

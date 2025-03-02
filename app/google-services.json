@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "235195973113",
-    "project_id": "daily-expenses-tracker-bb762",
-    "storage_bucket": "daily-expenses-tracker-bb762.firebasestorage.app"
+    "project_number": "326175663015",
+    "project_id": "calorie-intake-c8391",
+    "storage_bucket": "calorie-intake-c8391.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:235195973113:android:420a3180f42211e467d128",
+        "mobilesdk_app_id": "1:326175663015:android:8b48ae31f0e54e90b18c82",
         "android_client_info": {
           "package_name": "com.example.dailyexpensetracker"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAOIaLmQ3_eMq1LQkfbPtbO1a-RMb4u2GA"
+          "current_key": "AIzaSyDegTH9BQu11RtayZL9sF6KQhuwLh1WeDk"
         }
       ],
       "services": {

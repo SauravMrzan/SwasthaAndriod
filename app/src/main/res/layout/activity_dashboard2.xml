@@ -15,8 +15,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:itemIconTint="@color/dark_purple"
-        app:itemTextColor="@color/dark_purple"
+        app:itemIconTint="#154AA6"
+        app:itemTextColor="#154AA6"
         app:menu="@menu/nav_bar"
         android:layout_height="wrap_content"/>
 

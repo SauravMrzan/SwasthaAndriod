@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_pink"
+    android:background="#83EF98"
     tools:context=".ui.fragment.HomeFragment">
 
     <!-- Title -->
@@ -15,7 +15,7 @@
         android:text="Expense Tracker"
         android:textSize="35dp"
         android:textStyle="bold"
-        android:textColor="@color/dark_purple"
+        android:textColor="#A63015"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,7 +35,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Total Balance"
+            android:text="Total Calories"
             android:textAllCaps="true"
             android:textStyle="bold"
             android:textSize="18sp" />
@@ -44,7 +44,7 @@
             android:id="@+id/balance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="$300"
+            android:text="300"
             android:textSize="32sp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -87,7 +87,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Budget"
+                    android:text="Maintaince Calories"
                     android:textSize="16sp"
                     android:textAllCaps="true" />
             </LinearLayout>
@@ -111,7 +111,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Expense"
+                    android:text="Remaining Calories"
                     android:textSize="16sp"
                     android:textAllCaps="true" />
             </LinearLayout>
@@ -123,10 +123,10 @@
         android:id="@+id/recyclerview_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Transactions"
+        android:text="Food Intake"
         android:textStyle="bold"
         android:textSize="17dp"
-        android:textColor="@color/dark_purple"
+        android:textColor="#A63015"
         android:textAllCaps="true"
         app:layout_constraintTop_toBottomOf="@id/dashboard"
         app:layout_constraintStart_toStartOf="parent"
