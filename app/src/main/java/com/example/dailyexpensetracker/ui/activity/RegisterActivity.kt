@@ -75,11 +75,13 @@ class RegisterActivity : AppCompatActivity() {
             if(success){
                 Toast.makeText(this@RegisterActivity
                     ,message,Toast.LENGTH_SHORT).show()
+                loadingUtils.dismiss()
             }else{
                 Toast.makeText(this@RegisterActivity
                     ,message,Toast.LENGTH_SHORT).show()
+                loadingUtils.dismiss()
             }
-            loadingUtils.dismiss()
+
         }
     }
 }
