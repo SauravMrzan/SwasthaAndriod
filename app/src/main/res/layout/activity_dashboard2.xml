@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_pink"
+    android:background="#83EF98"
     tools:context=".ui.activity.DashboardActivity">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

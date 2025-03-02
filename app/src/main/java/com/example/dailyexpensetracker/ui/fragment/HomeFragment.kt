@@ -29,7 +29,7 @@ class HomeFragment : Fragment() {
     lateinit var transactionViewModel: TransactionViewModel
     lateinit var adapter: TransactionAdapter
 
-    private val budget = 1000 // Static budget
+    private val budget = 2400 // Static budget
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -57,9 +57,9 @@ class HomeFragment : Fragment() {
                 val balance = budget - totalExpense // Balance calculation
 
                 // Update UI
-                binding.budget.text = "$$budget"
-                binding.expense.text = "$$totalExpense"
-                binding.balance.text = "$$balance"
+                binding.budget.text = "$budget"
+                binding.expense.text = "$totalExpense"
+                binding.balance.text = "$balance"
             }
         }
 
